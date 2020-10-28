@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="app.component.css">
+
+</head>
+<body>
+
+<div class="main">
+
+	<div class="header">
+		<h1 class="head">Profile Page</h1>
+		 
+		<td><a routerLink="add">Home</a></td>
+   		<td><a routerLink="login">Profile</a></td>
+   		<td><a routerLink="register">Carrier</a></td>
+  		<td><a routerLink="update">About Us</a> </td>
+   		<td><a routerLink="list">Contact Us</a></td>
+	</div>
+<hr>
+	<div class="mid">
+		<router-outlet></router-outlet>
+	</div>
+<hr>	
+	<div class="foot">
+		<p>Copyright@praveen.com</p>
+	</div>
+
+</div>
+
+ 
+</body>
+</html>
